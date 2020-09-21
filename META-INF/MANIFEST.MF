@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Import Visio File
+Bundle-SymbolicName: jsunchu.import.visio;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Localization: plugin
+Bundle-ClassPath: .,/libs/opencsv-5.2.jar,/libs/commons-lang3-3.11.jar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.archimatetool.editor
+Automatic-Module-Name: com.archimatetool.importexportexample
